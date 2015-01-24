@@ -89,6 +89,18 @@ class Shape: Hashable, Printable {
     convenience init(column:Int, row:Int) {
         self.init(column: column, row:row, color: BlockColor.random(), orientation:Orientation.random())
     }
+    
+    final func initializeBlocks() {
+        if let blockRowColumnTranslations = blockRowColumnPositions[orientation] {
+            for i in 0..<blockRowColumnTranslations.count {
+                let blockRow = row + blockRowColumnTranslations[i].rowDiff
+                let blockColumn = column + blockRowColumnTranslations[i].columnDiff
+                let newBlock = Block(column: blockColumn, row: blockRow, color: color)
+                blocks.append(newBlock)
+                
+            }
+        }
+    }
 }
 
 func ==(left:Shape, right:Shape) -> Bool {
