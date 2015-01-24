@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		49129DF31A743C2F00788A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49129DF21A743C2F00788A34 /* AppDelegate.swift */; };
-		49129DF51A743C2F00788A34 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49129DF41A743C2F00788A34 /* GameScene.sks */; };
 		49129DF71A743C2F00788A34 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49129DF61A743C2F00788A34 /* GameScene.swift */; };
 		49129DF91A743C2F00788A34 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49129DF81A743C2F00788A34 /* GameViewController.swift */; };
 		49129DFC1A743C2F00788A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49129DFA1A743C2F00788A34 /* Main.storyboard */; };
@@ -31,7 +30,6 @@
 		49129DED1A743C2F00788A34 /* Tetris-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tetris-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49129DF11A743C2F00788A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49129DF21A743C2F00788A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49129DF41A743C2F00788A34 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		49129DF61A743C2F00788A34 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		49129DF81A743C2F00788A34 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		49129DFB1A743C2F00788A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				49129DF21A743C2F00788A34 /* AppDelegate.swift */,
-				49129DF41A743C2F00788A34 /* GameScene.sks */,
 				49129DF61A743C2F00788A34 /* GameScene.swift */,
 				49129DF81A743C2F00788A34 /* GameViewController.swift */,
 				49129DFA1A743C2F00788A34 /* Main.storyboard */,
@@ -200,7 +197,6 @@
 			files = (
 				49129E011A743C2F00788A34 /* LaunchScreen.xib in Resources */,
 				49129DFE1A743C2F00788A34 /* Images.xcassets in Resources */,
-				49129DF51A743C2F00788A34 /* GameScene.sks in Resources */,
 				49129DFC1A743C2F00788A34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
