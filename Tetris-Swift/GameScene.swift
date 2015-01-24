@@ -10,6 +10,10 @@ import SpriteKit
 
 class GameScene: SKScene {
     
+    var tick:(() -> ())?
+    var tickLengthMillis = TickLengthLevelOne
+    var lastTick: NSDate?
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("NSCoder not supported")
     }
@@ -25,6 +29,21 @@ class GameScene: SKScene {
     }
 
     override func update(currentTime: CFTimeInterval) {
-        /* Called before each frame is rendered */
+        if lastTick == nil {
+            return
+        }
+        var timePassed = lastTick!.timeIntervalSinceNow * -1000.0
+        if timePassed > tickLengthMillis {
+            lastTick = NSDate()
+            tick?()
+        }
+    }
+    
+    func startTicking() {
+        lastTick = NSDate()
+    }
+    
+    func stopTicking() {
+        lastTick = nil
     }
 }
