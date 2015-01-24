@@ -27,6 +27,7 @@
 		49129E2D1A743D9800788A34 /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 49129E271A743D9800788A34 /* whitebg.png */; };
 		49129E2E1A743D9800788A34 /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49129E281A743D9800788A34 /* whitebg@2x.png */; };
 		49129E301A7441EB00788A34 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49129E2F1A7441EB00788A34 /* Board.swift */; };
+		49129E331A74484C00788A34 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49129E321A74484C00788A34 /* Block.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		49129E271A743D9800788A34 /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
 		49129E281A743D9800788A34 /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
 		49129E2F1A7441EB00788A34 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		49129E321A74484C00788A34 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Block.swift; path = ../Block.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		49129DEF1A743C2F00788A34 /* Tetris-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				49129E321A74484C00788A34 /* Block.swift */,
 				49129DF21A743C2F00788A34 /* AppDelegate.swift */,
 				49129DF61A743C2F00788A34 /* GameScene.swift */,
 				49129DF81A743C2F00788A34 /* GameViewController.swift */,
@@ -276,6 +279,7 @@
 			files = (
 				49129DF71A743C2F00788A34 /* GameScene.swift in Sources */,
 				49129DF91A743C2F00788A34 /* GameViewController.swift in Sources */,
+				49129E331A74484C00788A34 /* Block.swift in Sources */,
 				49129E301A7441EB00788A34 /* Board.swift in Sources */,
 				49129DF31A743C2F00788A34 /* AppDelegate.swift in Sources */,
 			);
