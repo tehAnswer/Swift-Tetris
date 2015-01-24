@@ -8,6 +8,8 @@
 
 import SpriteKit
 
+let TickLengthLevelOne = NSTimeInterval(600)
+
 class GameScene: SKScene {
     
     var tick:(() -> ())?
