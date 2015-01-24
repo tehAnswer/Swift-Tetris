@@ -38,3 +38,34 @@ enum BlockColor: Int, Printable {
         return BlockColor(rawValue: Int(arc4random_uniform(NumberOfColors)))!
     }
 }
+
+class Block: Hashable, Printable {
+    let color: BlockColor
+    
+    var column: Int
+    var row: Int
+    var sprite: SKSpriteNode
+    
+    var spriteName: String {
+        return color.spriteName
+    }
+    
+    var hashValue: Int {
+        return self.column ^ self.row
+    }
+    
+    var description: String {
+        return "\(color): \(row), \(column)"
+    }
+    
+    init(column:Int, row: Int, color: BlockColor) {
+        self.column = column
+        self.row = row
+        self.color = color
+    }
+}
+
+func ==(left: Block, right: Block) -> Bool {
+    return left.description == right.description
+}
+
