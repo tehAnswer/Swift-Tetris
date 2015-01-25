@@ -132,7 +132,7 @@ class Shape: Hashable, Printable {
     }
     
     final class func random(startingColumn:Int, startingRow:Int) -> Shape {
-        switch Int(arc4random_uniform(NumShapeTypes)) {
+        switch Int(arc4random_uniform(NumShapesTypes)) {
         case 0:
             return SquareShape(column:startingColumn, row:startingRow)
         case 1:

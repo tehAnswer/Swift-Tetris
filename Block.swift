@@ -44,7 +44,7 @@ class Block: Hashable, Printable {
     
     var column: Int
     var row: Int
-    var sprite: SKSpriteNode
+    var sprite: SKSpriteNode?
     
     var spriteName: String {
         return color.spriteName

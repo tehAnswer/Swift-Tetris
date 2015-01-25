@@ -36,6 +36,7 @@
 		49129E3F1A7463D500788A34 /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49129E3E1A7463D500788A34 /* JShape.swift */; };
 		49129E411A74643000788A34 /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49129E401A74643000788A34 /* SShape.swift */; };
 		49129E431A74644600788A34 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49129E421A74644600788A34 /* ZShape.swift */; };
+		49129E451A74669F00788A34 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49129E441A74669F00788A34 /* GameLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		49129E3E1A7463D500788A34 /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
 		49129E401A74643000788A34 /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
 		49129E421A74644600788A34 /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		49129E441A74669F00788A34 /* GameLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameLogic.swift; path = ../GameLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		49129DEF1A743C2F00788A34 /* Tetris-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				49129E441A74669F00788A34 /* GameLogic.swift */,
 				49129E321A74484C00788A34 /* Block.swift */,
 				49129DF21A743C2F00788A34 /* AppDelegate.swift */,
 				49129DF61A743C2F00788A34 /* GameScene.swift */,
@@ -307,6 +310,7 @@
 				49129E3F1A7463D500788A34 /* JShape.swift in Sources */,
 				49129E351A74546700788A34 /* Shape.swift in Sources */,
 				49129DF91A743C2F00788A34 /* GameViewController.swift in Sources */,
+				49129E451A74669F00788A34 /* GameLogic.swift in Sources */,
 				49129E3B1A74632500788A34 /* LineShape.swift in Sources */,
 				49129E411A74643000788A34 /* SShape.swift in Sources */,
 				49129E391A7461A000788A34 /* TShape.swift in Sources */,
